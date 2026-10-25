@@ -5,7 +5,7 @@ declare(strict_types=1);
 if (session_status() !== PHP_SESSION_ACTIVE) {
     ini_set('session.use_strict_mode', '1');
     ini_set('session.use_only_cookies', '1');
-    session_name('blue_register_session');
+    session_name('internet_engineering_session');
     session_set_cookie_params([
         'lifetime' => 0,
         'path' => '/',

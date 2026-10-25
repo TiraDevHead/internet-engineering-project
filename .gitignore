@@ -1,14 +1,19 @@
+# Runtime database and private data (never commit)
 /data/*
 !/data/.gitignore
-
 *.sqlite
 *.sqlite3
 *.db
+*.sqlite-wal
+*.sqlite-shm
 *.db-wal
 *.db-shm
 
+# Secrets, logs, local files
 .env
 .env.*
 !.env.example
-
 *.log
+*.bak
+.DS_Store
+Thumbs.db

@@ -1,4 +1,4 @@
--- Blue Form / SQLite schema
+-- Internet Engineering Project / SQLite schema
 -- The PHP application automatically creates these tables if absent.
 PRAGMA foreign_keys = ON;
 
