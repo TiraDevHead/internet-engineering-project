@@ -1,0 +1,14 @@
+/data/*
+!/data/.gitignore
+
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+
+.env
+.env.*
+!.env.example
+
+*.log
